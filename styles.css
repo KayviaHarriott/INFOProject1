@@ -1,0 +1,129 @@
+.header {
+    line-height: 10px;
+    text-align: center;
+    grid-area: header;
+    border: 2px solid white;
+    padding: 10px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    text-align: center;
+    background: rgb(216, 216, 6);
+    margin-top: -10px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.space{
+    grid-area: space;
+    
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+.space2{
+    grid-area: space2;
+}
+
+
+.sidebar {
+    grid-area: menu;
+    background: white;
+    margin-left: 10px;
+    color: black;
+}
+
+.bio {
+    grid-area: bio;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.worke {
+    grid-area: worke;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.edu {
+    grid-area: edu;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.skills {
+    grid-area: skills;
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.lists {
+    display: flex;
+}
+
+.profilephoto {
+    text-align: center;
+}
+
+.sidebartext{
+    margin-left: 10px;
+    margin-right: 10px;     
+}
+
+
+.sameline {
+    display: flex;
+}
+
+.left{
+    padding-right: 80px;
+}
+
+.listsleft{
+}
+
+.span {
+    float: right;
+}
+
+.sidebarsplit{
+    display: flex;
+}
+
+.sidebarsplit img{
+    width: 25px;
+    height: 25px;
+}
+
+.text{
+    text-indent: 15px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-areas:    'header header header header header header'
+                            'space  space  space  space  space  space '
+                            'menu   bio    bio    bio    bio    bio   '
+                            'menu   worke  worke  worke  worke  worke '
+                            'menu   edu    edu    edu    edu    edu   '
+                            'menu   skills skills skills skills skills'
+}
+
+              
